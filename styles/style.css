@@ -1,0 +1,92 @@
+@font-face {
+    font-family: RDHONEY; 
+    src: url(../fonts/7fonts.ru_virginlo.ttf); 
+ }
+body {
+    overflow:hidden;
+    height: 600px;
+    text-align: center;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    position: relative;
+  }
+h1{
+    margin: 0px;
+    padding: 30px;
+    font-size: 60px;
+    color: #F5C21B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.3);
+    font-family: RDHONEY;
+    text-transform: uppercase;
+  }
+.row {
+    display: flex;
+    height: 100px;
+  }
+.col {
+    width: 100px;
+    border: 1px solid #000;
+  }
+.images img {
+    width: 100px;
+    border: 1px solid #000;
+  }
+.puzzle{
+    margin: 10px auto;
+    max-width: 100%;
+    max-height: 100%;     
+  }
+.puzzle img{
+    width: 100px;
+  }
+.images{
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+    align-self: center;
+  }
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+#message{
+    height: 100%;
+    width: 100%;
+}
+#message>h1{
+    font-size: 40px;
+    color: #F5C21B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.3);
+    font-family: RDHONEY;
+    text-transform: uppercase;
+}
+#message>p{
+    font-size: 20px;
+    font: bold;
+    color: #F5C21B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: RDHONEY;
+}
+canvas{
+    padding:0;
+    margin:0;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+div.btnbg{
+    position:fixed;
+    left:0;
+    top:0;
+}
